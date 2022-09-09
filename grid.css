@@ -1,0 +1,54 @@
+.Favorite__Card {
+    width: 600px;
+    height: 500px;
+    border: 1px solid lightgray;
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: grid;
+}
+  
+  .Input__Container {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid darkolivegreen;
+  }
+  
+  .Text__Container {
+    grid-column: span 2;
+  }
+  
+  .Button__Container {
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .Input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    border: 2px solid lightblue;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+  
+  
+  .Button {
+    background-color: darkolivegreen;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+  }
+  
+
